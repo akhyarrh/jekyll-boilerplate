@@ -1,17 +1,11 @@
 # jekyll-boilerplate
 
-A ready to use boilerplate for [Jekyll][jekyll].
+A ready to use boilerplate for [Jekyll][https://jekyllrb.com].
 
 ## Include
 
-### [Prose][prose]
+### [Prose][https://prose.io]
 - links.jsonp
-
-### [markdown-writer][md-writer]
-- _mdwriter.cson
-- categories.json
-- posts.json
-- tags.json
 
 ## To do
 - [ ] List of what included
@@ -20,9 +14,4 @@ A ready to use boilerplate for [Jekyll][jekyll].
 
 ## License
 
-MIT. Copyright © 2015 Nectktar. [More info][license].
-
-[jekyll]: http://jekyllrb.com
-[license]: http://nectktar.mit-license.org
-[md-writer]: http://github.com/zhuochun/md-writer/
-[prose]: http://prose.io
+MIT
