@@ -1,11 +1,14 @@
 # jekyll-boilerplate
 
-A ready to use boilerplate for [Jekyll][https://jekyllrb.com].
+A ready to use boilerplate for [Jekyll](https://jekyllrb.com).
 
 ## Include
 
-### [Prose][https://prose.io]
+### [Prose](https://prose.io)
+
 - links.jsonp
+
+This file used by Prose to find relative links to posts.
 
 ## To do
 - [ ] List of what included
