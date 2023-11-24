@@ -1,15 +1,13 @@
-# Setup
-name:                "Your site name"
-description:         "Awesome description"
-url:                 "https://nectktar.github.io"
-baseurl:             "/jekyll-boilerplate"
-author:
-  name:              "Your Name"
-#  email:             "your@email.com"
-#  uri:               "http://example.com"
+theme: minima
 
-# Pagination
-paginate:            10
+# Setup
+name:                "Your site name" # change me
+description:         "Awesome description" # change me
+url:                 "https://change.me" # change me
+baseurl:             "/change_me" # change me
+author:
+#  name:              "Your Name" # change me
+#  email:             "your@email.com" # change me
 
 # Exclude
 #
@@ -30,7 +28,6 @@ gems:
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
   style:             compressed
 
 # Permalinks
@@ -38,20 +35,6 @@ sass:
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 relative_permalinks: true
-
-# pygments as syntax highlighter
-highlighter:         pygments
-
-# redcarpet as markdown compiler
-markdown:            redcarpet
-
-# usefull redcarpet extensions
-# more: https://github.com/vmg/redcarpet#readme
-redcarpet:
-  extensions:
-    - tables
-    - autolink
-    - strikethrough
 
 # compress compiled html
 # more: https://github.com/penibelst/jekyll-compress-html
@@ -64,9 +47,9 @@ compress_html:
 # prose config
 prose:
   rooturl: _posts
-  siteurl: https://nectktar.github.io/jekyll-boilerplate
-  media: images
-  relativeLinks: https://nectktar.github.io/jekyll-boilerplate/links.jsonp
+  siteurl: https://akhyarrh.github.io/jekyll-boilerplate # change me
+  media: uploads # folder use by Prose
+  relativeLinks: https://akhyarrh.github.io/jekyll-boilerplate/links.jsonp # change me
   metadata:
     _posts:
       - name: 'layout'
@@ -87,4 +70,4 @@ prose:
           element: text
           label: Tag(s)
           value: []
-          placeholder: [tag1, tag2, tag3, ...]
+          placeholder: [tag1, tag2, tag3, ...]
