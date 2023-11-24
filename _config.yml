@@ -1,7 +1,7 @@
 theme: minima
 
 # Setup
-name:                "Your site name" # change me
+title:                "Your site name" # change me
 description:         "Awesome description" # change me
 url:                 "https://change.me" # change me
 baseurl:             "/change_me" # change me
@@ -20,7 +20,7 @@ exclude:
 
 # Supported plugins by github pages
 # Check here: https://pages.github.com/versions/
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
 
@@ -28,13 +28,12 @@ gems:
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  style:             compressed
+  style: compressed
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+permalink: pretty
 
 # compress compiled html
 # more: https://github.com/penibelst/jekyll-compress-html
