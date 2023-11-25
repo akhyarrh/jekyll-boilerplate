@@ -17,4 +17,4 @@ This file used by Prose to find relative links to posts.
 
 ## License
 
-MIT
+MIT-0
