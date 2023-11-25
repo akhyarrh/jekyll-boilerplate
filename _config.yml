@@ -1,12 +1,12 @@
 theme: minima
 
 # Setup
-title:                "Your site name" # change me
+title:               "Your site name" # change me
 description:         "Awesome description" # change me
-url:                 "https://change.me" # change me
-baseurl:             "/change_me" # change me
+url:                 "https://akhyar.js.org" # change me
+baseurl:             "/jekyll-boilerplate" # change me
 author:
-#  name:              "Your Name" # change me
+  name:              "Akhyar" # change me
 #  email:             "your@email.com" # change me
 
 # Exclude
